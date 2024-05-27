@@ -50,6 +50,10 @@ body {
   height: 40px;
   border-radius: 40px;
   width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -77,6 +81,9 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-part {
@@ -159,6 +166,8 @@ body {
 
   .quick-h5 {
     font-size: 14px;
+    width: 80%;
+    margin: auto;
   }
 
   .logo-img-section {
@@ -210,13 +219,16 @@ body {
   .activity-logo {
     font-size: 30px;
     background-color: #DFF5FD;
-    width: 80px;
+    width: 100px;
     height: 60px;
     border: 1px solid #89e0ff;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .text-main {
@@ -263,7 +275,9 @@ body {
     margin-top: 0%;
     height: 40%;
   }
-
+  .quick-start {
+    font-size: 32px !important;
+  }
   .img-part {
     width: 100%;
     padding-top: 10px;
@@ -302,12 +316,22 @@ body {
 
   .hero-text {
     width: 50%;
-    top: 0px;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
   }
 
   .carousel-box {
     width: 50%;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+  .hero-text {
+    width: 50%;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
