@@ -157,7 +157,7 @@ body {
 
 @media screen and (max-width:375px) {
   .quick-start {
-    font-size: 20px !important;
+    font-size: 30px !important;
   }
 
   .hero-text {
@@ -190,7 +190,7 @@ body {
 
   .hero-text {
     width: 50%;
-    top: 0px;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -276,7 +276,7 @@ body {
     height: 40%;
   }
   .quick-start {
-    font-size: 32px !important;
+    font-size: 40px !important;
   }
   .img-part {
     width: 100%;
